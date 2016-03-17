@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2260B4A81C9B137A001CED42 /* RAMContact.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 2260B4A71C9B137A001CED42 /* RAMContact.h */; };
+		2260B4AA1C9B137A001CED42 /* RAMContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260B4A91C9B137A001CED42 /* RAMContact.m */; };
+		2260B4B21C9B13B8001CED42 /* RAMContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260B4B11C9B13B8001CED42 /* RAMContactsManager.m */; };
+		2260B4B41C9B14EB001CED42 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260B4B31C9B14EB001CED42 /* AddressBook.framework */; };
+		2260B4B51C9B14F2001CED42 /* RAMContactsManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 2260B4B01C9B13B8001CED42 /* RAMContactsManager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2260B4A21C9B137A001CED42 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2260B4B51C9B14F2001CED42 /* RAMContactsManager.h in Copy Files */,
+				2260B4A81C9B137A001CED42 /* RAMContact.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2260B4A41C9B137A001CED42 /* libRAMContacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRAMContacts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2260B4A71C9B137A001CED42 /* RAMContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAMContact.h; sourceTree = "<group>"; };
+		2260B4A91C9B137A001CED42 /* RAMContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAMContact.m; sourceTree = "<group>"; };
+		2260B4B01C9B13B8001CED42 /* RAMContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMContactsManager.h; sourceTree = "<group>"; };
+		2260B4B11C9B13B8001CED42 /* RAMContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMContactsManager.m; sourceTree = "<group>"; };
+		2260B4B31C9B14EB001CED42 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2260B4A11C9B137A001CED42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260B4B41C9B14EB001CED42 /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2260B49B1C9B137A001CED42 = {
+			isa = PBXGroup;
+			children = (
+				2260B4B31C9B14EB001CED42 /* AddressBook.framework */,
+				2260B4A61C9B137A001CED42 /* RAMContacts */,
+				2260B4A51C9B137A001CED42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2260B4A51C9B137A001CED42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2260B4A41C9B137A001CED42 /* libRAMContacts.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2260B4A61C9B137A001CED42 /* RAMContacts */ = {
+			isa = PBXGroup;
+			children = (
+				2260B4A71C9B137A001CED42 /* RAMContact.h */,
+				2260B4A91C9B137A001CED42 /* RAMContact.m */,
+				2260B4B01C9B13B8001CED42 /* RAMContactsManager.h */,
+				2260B4B11C9B13B8001CED42 /* RAMContactsManager.m */,
+			);
+			path = RAMContacts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2260B4A31C9B137A001CED42 /* RAMContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2260B4AD1C9B137A001CED42 /* Build configuration list for PBXNativeTarget "RAMContacts" */;
+			buildPhases = (
+				2260B4A01C9B137A001CED42 /* Sources */,
+				2260B4A11C9B137A001CED42 /* Frameworks */,
+				2260B4A21C9B137A001CED42 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMContacts;
+			productName = RAMContacts;
+			productReference = 2260B4A41C9B137A001CED42 /* libRAMContacts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2260B49C1C9B137A001CED42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Morbach;
+				TargetAttributes = {
+					2260B4A31C9B137A001CED42 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2260B49F1C9B137A001CED42 /* Build configuration list for PBXProject "RAMContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2260B49B1C9B137A001CED42;
+			productRefGroup = 2260B4A51C9B137A001CED42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2260B4A31C9B137A001CED42 /* RAMContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2260B4A01C9B137A001CED42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260B4AA1C9B137A001CED42 /* RAMContact.m in Sources */,
+				2260B4B21C9B13B8001CED42 /* RAMContactsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2260B4AB1C9B137A001CED42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2260B4AC1C9B137A001CED42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2260B4AE1C9B137A001CED42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2260B4AF1C9B137A001CED42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2260B49F1C9B137A001CED42 /* Build configuration list for PBXProject "RAMContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2260B4AB1C9B137A001CED42 /* Debug */,
+				2260B4AC1C9B137A001CED42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2260B4AD1C9B137A001CED42 /* Build configuration list for PBXNativeTarget "RAMContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2260B4AE1C9B137A001CED42 /* Debug */,
+				2260B4AF1C9B137A001CED42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2260B49C1C9B137A001CED42 /* Project object */;
+}
